@@ -4,7 +4,6 @@ let btnSwitch = document.querySelector("#btnSwitch");
 let moveTop = 0;
 let moveSide = 0;
 document.addEventListener("keypress", event =>{
-    console.log(event);
     if(event.key === "s"){
         moveTop += 50;
         box.style.marginTop = `${moveTop}px`;
